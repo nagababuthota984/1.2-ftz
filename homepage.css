@@ -1,0 +1,97 @@
+body
+{
+    background-image: url(bg.jpg);
+}
+.container
+{
+    width:67.5%;
+    margin:auto;
+    font-family:'Trebuchet MS';
+    font-weight: lighter;
+}
+.top
+{
+    height:20px;
+    width:100%;
+}
+.top ul
+{
+    background:rgb(0,0,0,0.5);
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    float:right;
+
+}
+.top li
+{
+    display:inline-block;
+    color:white;
+    text-decoration: none;
+}
+.header
+{
+    width:100%;
+    margin-top:30px;
+    padding:3px;
+    box-shadow:3px black;
+
+}
+.navbar
+{
+    height:50px;
+    background:rgb(0,0,0,0.8);
+}
+.navbar ul
+{
+    list-style-type:none;
+    margin-left:200px;
+    padding:0;
+    height:30px;
+    text-align: center;
+
+}
+.navbar li + li:before
+{
+    content:"| ";
+    color:yellow;
+
+}
+.navbar li
+{
+    display:inline-block;
+    color:skyblue;
+}
+   
+#logo
+{
+    width:160px;
+    float:left;
+    padding:0;
+    vertical-align: top;
+    
+}
+.banner
+{
+    color:white;
+    background: rgba(0, 0, 0, 0.2);
+    height:140px;
+    margin:auto;
+}
+.banner h1
+{
+    margin:0;
+    
+}
+.frameset
+{
+    margin:auto;
+    background:rgb(0,0,0,0.6);
+}
+.frame
+{
+    width:30%;
+    display: inline-block;
+    vertical-align:baseline;
+    color:white;
+}
