@@ -11,23 +11,24 @@ body
 }
 .top
 {
-    height:20px;
+    height:15px;
     width:100%;
 }
 .top ul
 {
     background:rgb(0,0,0,0.5);
     list-style-type: none;
-    margin:0;
+    margin-top: -7px;
     padding:0;
     float:right;
-
 }
 .top li
 {
     display:inline-block;
     color:white;
     text-decoration: none;
+    font-size:10px;
+    margin-bottom:2px;
 }
 .header
 {
@@ -46,21 +47,21 @@ body
 {
     list-style-type:none;
     margin-left:200px;
-    padding:0;
+    padding-top: 15px;
     height:30px;
-    text-align: center;
-
 }
 .navbar li + li:before
 {
     content:"| ";
-    color:yellow;
-
+    color:white;
+    margin-right:20px;
 }
 .navbar li
 {
     display:inline-block;
     color:skyblue;
+    margin-right:15px;
+    margin-left:20px;
 }
    
 #logo
@@ -68,30 +69,59 @@ body
     width:160px;
     float:left;
     padding:0;
-    vertical-align: top;
-    
+    height: 100px;
+    margin-left: 15px;
 }
 .banner
 {
     color:white;
     background: rgba(0, 0, 0, 0.2);
-    height:140px;
+    height:160px;
     margin:auto;
 }
 .banner h1
 {
     margin:0;
-    
+    margin-left: 25px;
 }
 .frameset
 {
-    margin:auto;
     background:rgb(0,0,0,0.6);
+    width:999px;
+    padding-left:15px;
+    padding-top:15px;
+    height:420px;
 }
 .frame
 {
-    width:30%;
+    width:25%;
     display: inline-block;
-    vertical-align:baseline;
+    color:white;
+    font-size:12px;
+    font-weight:bold; 
+    margin-right: 60px;
+    margin-left: 15px;
+    
+}
+#tile3
+{
+    height: 131px;
+    width: 280px;
+}
+#footer
+{
+    background : rgb(0,0,0,0.3);
+    text-align:center;
+    font-size:12px;
+    height:25px;
+}
+#footer p
+{
+    padding-top: 4px;
+    margin-top:6px;
+    color:white;
+}
+#footer a 
+{
     color:white;
 }
