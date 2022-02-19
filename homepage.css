@@ -42,6 +42,8 @@ body
 {
     height:50px;
     background:rgb(0,0,0,0.8);
+    outline: 0.2px solid gray;
+    outline-offset: -4px;
 }
 .navbar ul
 {
@@ -71,6 +73,8 @@ body
     padding:0;
     height: 100px;
     margin-left: 15px;
+    position:relative;
+    z-index:1;
 }
 .banner
 {
@@ -91,6 +95,12 @@ body
     padding-left:15px;
     padding-top:15px;
     height:420px;
+    outline: 0.2px solid gray;
+    outline-offset: -4px;
+}
+.frameset a
+{
+    color:paleturquoise;
 }
 .frame
 {
