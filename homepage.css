@@ -79,7 +79,7 @@ body
 .banner
 {
     color:white;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgb(0, 0, 0, 0.2);
     height:160px;
     margin:auto;
 }
@@ -88,7 +88,7 @@ body
     margin:0;
     margin-left: 25px;
 }
-.frameset
+.frame-set
 {
     background:rgb(0,0,0,0.6);
     width:999px;
@@ -98,7 +98,7 @@ body
     outline: 0.2px solid gray;
     outline-offset: -4px;
 }
-.frameset a
+.frame-set a
 {
     color:paleturquoise;
 }
