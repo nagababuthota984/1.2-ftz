@@ -44,7 +44,7 @@ body
 .navbar
 {
     height:50px;
-    background:rgb(0,0,0,0.8);
+    background:rgb(0,0,0,0.65);
     outline: 0.1px solid rgb(255,255,255,0.2);
     outline-offset: -4px;
     margin-top:35px;
