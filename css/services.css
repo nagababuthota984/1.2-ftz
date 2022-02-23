@@ -4,9 +4,10 @@ body
     background-repeat: no-repeat;
     background-size:cover;
 }
+
 .container
 {
-    width:790px;
+    width:1030px;
     margin:auto;
     font-family:'Trebuchet MS';
     font-weight: lighter;
@@ -20,7 +21,8 @@ body
     background:rgb(0,0,0,0.5);
     list-style-type: none;
     margin-top: -8px;
-    padding-left: 3px;
+    padding-left: 8px;
+    padding-right:3px;
     padding-bottom: 4px;
     float:right;
 }
@@ -34,10 +36,10 @@ body
 }
 .header
 {
-    width:790px;
+    width:100%;
     padding:3px;
     box-shadow:3px black;
-    margin-left: -3px;
+    /* margin-left: -3px; */
 
 }
 .navbar {
@@ -45,39 +47,47 @@ body
     background:rgb(0,0,0,0.8);
     outline: 0.1px solid rgb(255,255,255,0.2);
     outline-offset: -4px;
+    margin-top:35px;
 }
 .navbar #activeItem {
     background: rgb(255,255,255,0.3);
-    padding: 2px;
+    padding: 3px 8px 3px 8px;
     border-radius: 2px;
-    margin-left: -2px;
-    margin-right:-2px;
-    color:white;
+    margin-left: -9px;
+    margin-right: -4px;
+    color: white;
 }
 .navbar ul
 {
     list-style-type:none;
     padding-top: 15px;
     height:30px;
-    width: 565px;
-    margin-left:auto;
-    margin-right:15px;
+    margin-left: 30%;
 }
-.navbar li + li::before
+/* .navbar li + li::before
 {
     content:"|";
     color:white;
+} */
+.delimiter
+{
+    color:white;
+    margin-left:-4px;
+    padding:0;
 }
 .navbar li
 {
     display:inline-block;
-    margin-right:-4px;
+    
     
 }
 .navbar a
 {
     text-decoration:none;
     color:skyblue;
+    letter-spacing: 1.5px;
+    margin-left:4px;
+    margin-right:4px;
 
 }
    
@@ -89,7 +99,7 @@ body
     margin-left: 15px;
     position:relative;
     z-index:1;
-    margin-top:-13px;
+    margin-top:6px;
 }
 
 
@@ -97,19 +107,20 @@ body
 {
     margin-top:30px;
     background:rgb(0,0,0,0.6);
-    width:790px;
+    width:1030px;
+    font-size:13.5px;
     padding-top:15px;
-    height:420px;
+    height:500px;
 }
 
 .left-frame
 {
     float:left;
-    width:200px;
+    width:250px;
     margin-left: 25px;
     margin-top: 5px;
 }
-.left-frame a
+.left-bottom a
 {
     color:rgba(198, 228, 240);
 
@@ -117,21 +128,24 @@ body
 .left-bottom
 {
     margin-top:15px;
-    font-size: 12px;
+    font-size: 14px;
     padding-top:15px;
     padding-bottom:15px;
     border-top: 0.2px solid rgba(255,255,255,0.25);
 	border-bottom: 0.2px solid rgba(255,255,255,0.25);
 }
+
 .right-frame
 {
     float:right;
-    width: 532px;
+    width: 700px;
     margin-top: -14px;
-    font-size: 12px;
+    font-size: 14px;
     color: white;
-    font-weight: 500;
+    padding-right:25px;
+    font-weight: lighter;
     letter-spacing: 1px;
+    line-height: 135%;
 }
 
 .right-bottom
@@ -148,31 +162,38 @@ body
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 14px;
     font-family:'Trebuchet MS';
     margin: 2px;
     padding-bottom:2px;
     border-radius:4px;
     border:0.5px solid rgb(52, 65, 65,0.7);
     background-image: linear-gradient(#137fa3, #0e2941);
-    height:20px;
+    height:25px;
+    width:235px;
   }
   .inside-border
-{    margin-top: -6.9px;
-    margin-right: 4px;
+{    
     margin-left: 4px;
-    height: 410px;
+    margin-right: 4px;
+    margin-bottom:-5px;
+    height: 494px;
     border-width: 0.2px;
     border-style: solid;
     border-image: linear-gradient(to top, rgb(255,255,255,0.2),rgb(255,255,255,0.05)) 1 100%;
 }
 .border-bottom {
-    margin-top: -7px;
-    border: 0.2px solid rgb(255, 255, 255, 0.3);
+    margin-top: 4px;
+    width:1020px;
+    border: 1px solid rgb(255, 255, 255, 0.1);
 }
 .heading
 {
     color:skyblue;
+}
+.bullet-points li
+{
+    margin-bottom:5px;
 }
 .footer
 {
@@ -180,7 +201,7 @@ body
     text-align:center;
     font-size:12px;
     height:25px;
-    width:790px;
+    width:1030px;
     margin-top:15px;
 }
 .footer p
@@ -195,8 +216,8 @@ body
 }
 .image
 {
-    width:197px;
-    height:85px;
+    width:245px;
+    height:100px;
 }
 .link-in-text
 {
