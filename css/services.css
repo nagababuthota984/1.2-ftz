@@ -36,9 +36,10 @@ body
 }
 .header
 {
-    width:100%;
+    width:1030px;
     padding:3px;
     box-shadow:3px black;
+    margin-left: -3px;
     /* margin-left: -3px; */
 
 }
@@ -50,7 +51,7 @@ body
     margin-top:35px;
 }
 .navbar #activeItem {
-    background: rgb(255,255,255,0.3);
+    background: rgba(128, 207, 253, 0.3);
     padding: 3px 8px 3px 8px;
     border-radius: 2px;
     margin-left: -9px;
@@ -105,12 +106,12 @@ body
 
 .frame-set
 {
-    margin-top:30px;
+    margin-top:40px;
     background:rgb(0,0,0,0.6);
     width:1030px;
     font-size:13.5px;
     padding-top:15px;
-    height:500px;
+    height:532px;
 }
 
 .left-frame
@@ -128,7 +129,7 @@ body
 .left-bottom
 {
     margin-top:15px;
-    font-size: 14px;
+    font-size: 14.5px;
     padding-top:15px;
     padding-bottom:15px;
     border-top: 0.2px solid rgba(255,255,255,0.25);
@@ -140,7 +141,7 @@ body
     float:right;
     width: 700px;
     margin-top: -14px;
-    font-size: 14px;
+    font-size: 14.5px;
     color: white;
     padding-right:25px;
     font-weight: lighter;
@@ -177,19 +178,20 @@ body
     margin-left: 4px;
     margin-right: 4px;
     margin-bottom:-5px;
-    height: 494px;
+    height: 525px;
     border-width: 0.2px;
     border-style: solid;
     border-image: linear-gradient(to top, rgb(255,255,255,0.2),rgb(255,255,255,0.05)) 1 100%;
 }
 .border-bottom {
-    margin-top: 4px;
+    margin-top: -6px;
     width:1020px;
-    border: 1px solid rgb(255, 255, 255, 0.1);
+    border: 0.1px solid rgb(255, 255, 255, 0.1);
 }
 .heading
 {
-    color:skyblue;
+    color:rgb(199, 250, 250,0.9);
+
 }
 .bullet-points li
 {
