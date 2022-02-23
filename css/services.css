@@ -1,10 +1,12 @@
 body
 {
     background-image: url(/Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .container
 {
-    width:800px;
+    width:790px;
     margin:auto;
     font-family:'Trebuchet MS';
     font-weight: lighter;
@@ -12,16 +14,15 @@ body
 .top
 {
     height:15px;
-    margin-right:43px;
 }
 .top ul
 {
     background:rgb(0,0,0,0.5);
     list-style-type: none;
-    margin-top: -7px;
-    padding:0;
+    margin-top: -8px;
+    padding-left: 3px;
+    padding-bottom: 4px;
     float:right;
-    margin-right: -44px;
 }
 .top li
 {
@@ -33,32 +34,36 @@ body
 }
 .header
 {
-    width:100%;
-    margin-top:30px;
+    width:790px;
     padding:3px;
     box-shadow:3px black;
-    margin-left: -2px;
+    margin-left: -3px;
 
 }
 .navbar {
-    height: 50px;
-    background: rgb(0,0,0,0.8);
-    outline: 0.2px solid gray;
-    outline-offset: 0px -4px -4px -4px;
-    width: 800px;
+    height:50px;
+    background:rgb(0,0,0,0.8);
+    outline: 0.1px solid rgb(255,255,255,0.2);
+    outline-offset: -4px;
 }
 .navbar #activeItem {
     background: rgb(255,255,255,0.3);
-    border-radius: 5px;
+    padding: 2px;
+    border-radius: 2px;
+    margin-left: -2px;
+    margin-right:-2px;
+    color:white;
 }
 .navbar ul
 {
     list-style-type:none;
     padding-top: 15px;
+    height:30px;
     width: 565px;
     margin-left:auto;
+    margin-right:15px;
 }
-.navbar li + li:before
+.navbar li + li::before
 {
     content:"|";
     color:white;
@@ -66,7 +71,14 @@ body
 .navbar li
 {
     display:inline-block;
+    margin-right:-4px;
+    
+}
+.navbar a
+{
+    text-decoration:none;
     color:skyblue;
+
 }
    
 #logo
@@ -74,83 +86,102 @@ body
     width:160px;
     float:left;
     padding:0;
-    height: 100px;
     margin-left: 15px;
-    margin-right:35px;
     position:relative;
     z-index:1;
+    margin-top:-13px;
 }
 
 
 .frame-set
 {
-    width: 800px;
-    outline: 0.2px solid gray;
-    outline-offset: -4px;
-    background:rgb(0,0,0,0.7);
-    height: 500px;
-    margin-top:45px;
+    margin-top:30px;
+    background:rgb(0,0,0,0.6);
+    width:790px;
+    padding-top:15px;
+    height:420px;
 }
 
 .left-frame
 {
-    width:150px;
-    display:inline-block;
+    float:left;
+    width:200px;
     margin-left: 25px;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 .left-frame a
 {
-    color:paleturquoise;
+    color:rgba(198, 228, 240);
+
 }
 .left-bottom
 {
     margin-top:15px;
-    font-size: 15px;
+    font-size: 12px;
     padding-top:15px;
     padding-bottom:15px;
-    width:150px;
     border-top: 0.2px solid rgba(255,255,255,0.25);
 	border-bottom: 0.2px solid rgba(255,255,255,0.25);
 }
 .right-frame
 {
-    width:500px;
     float:right;
-    margin-top:5px;
-    font-size:14px;
-    color:white;
-    padding-right: 15px;
-
+    width: 532px;
+    margin-top: -14px;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
+
 .right-bottom
 {
-    margin-top:4px;
-	border-top: 0.2px solid rgba(255,255,255,0.15);
-	border-bottom: 0.2px solid rgba(255,255,255,0.15);
+    margin-top:34px;
+	border-top: 0.2px solid rgba(255,255,255,0.3);
+	border-bottom: 0.2px solid rgba(255,255,255,0.3);
 	padding:10px;
-	background-color:rgba(20,44,68);
+	background-color:rgba(20,44,68,0.8);
 	padding-left:20px;
-    border:1px 0px 1px 0px 0.5px white;  
+    margin-right:15px;
 }
 .button {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 10px;
+    font-family:'Trebuchet MS';
     margin: 2px;
+    padding-bottom:2px;
     border-radius:4px;
-    border:0.5px black;
-    background-image: linear-gradient(#145d76, #11304b);
-    height:25px;
+    border:0.5px solid rgb(52, 65, 65,0.7);
+    background-image: linear-gradient(#137fa3, #0e2941);
+    height:20px;
   }
+  .inside-border
+{    margin-top: -6.9px;
+    margin-right: 4px;
+    margin-left: 4px;
+    height: 410px;
+    border-width: 0.2px;
+    border-style: solid;
+    border-image: linear-gradient(to top, rgb(255,255,255,0.2),rgb(255,255,255,0.05)) 1 100%;
+}
+.border-bottom {
+    margin-top: -7px;
+    border: 0.2px solid rgb(255, 255, 255, 0.3);
+}
+.heading
+{
+    color:skyblue;
+}
 .footer
 {
     background : rgb(0,0,0,0.3);
     text-align:center;
     font-size:12px;
     height:25px;
-    width:800px;
+    width:790px;
+    margin-top:15px;
 }
 .footer p
 {
@@ -165,7 +196,7 @@ body
 .image
 {
     width:197px;
-    height:80px;
+    height:85px;
 }
 .link-in-text
 {

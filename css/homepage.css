@@ -64,9 +64,14 @@ body
 .navbar li
 {
     display:inline-block;
-    color:skyblue;
+
 }
-   
+.navbar a
+{
+    text-decoration:none;
+    color:skyblue;
+
+}
 #logo
 {
     width:160px;
@@ -96,6 +101,7 @@ body
     padding-top:15px;
     height:400px;
     font-weight:200;
+
 }
 .frame-set a
 {
@@ -137,11 +143,16 @@ body
 {
     margin-left: 4px;
     margin-right: 4px;
+    margin-bottom:-5px;
     height: 396px;
     border-width: 0.2px;
     border-style: solid;
     border-image: linear-gradient(to top, rgb(255,255,255,0.2),rgb(255,255,255,0.05)) 1 100%;
-    border-bottom:0.2px solid rgb(255,255,255,0.1);
+}
+
+.border-bottom {
+    margin-top: 18px;
+    border: 0.2px solid rgb(255, 255, 255, 0.3);
 }
 .image-tile2
 {
