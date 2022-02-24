@@ -113,7 +113,7 @@ body
 }
 .home-body-container
 {
-    background:rgb(0,0,0,0.75);
+    background:rgb(0,0,0,0.8);
     width:inherit;
     padding-top:15px;
     height:460px;
@@ -220,22 +220,20 @@ body
     height:25px;
     width:235px;
 }
-/* check using inside border */
-.home-inside-border
+.inside-border
 {
     margin: 0px 4px -5px 4px;
-    height: 454px;
     border-width: 0.2px;
     border-style: solid;
     border-image: linear-gradient(to top, rgb(255,255,255,0.2),rgb(255,255,255,0.01)) 1 10%;
 }
+.home-inside-border
+{
+    height: 454px;
+}
 .services-inside-border
 {    
-    margin : 0px 4px -5px 4px;
     height: 525px;
-    border-width: 0.2px;
-    border-style: solid;
-    border-image: linear-gradient(to top, rgb(255,255,255,0.2),rgb(255,255,255,0.01)) 1 10%;
 }
 .services-right-container-heading
 {
