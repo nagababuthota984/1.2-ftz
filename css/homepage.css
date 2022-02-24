@@ -21,9 +21,7 @@ body
     background:rgb(0,0,0,0.5);
     list-style-type: none;
     margin-top: -8px;
-    padding-left: 8px;
-    padding-right:3px;
-    padding-bottom: 4px;
+    padding: 0px 3px 4px 8px;
     float:right;
 }
 .top-right-navbar li
@@ -71,18 +69,16 @@ body
     text-decoration:none;
     color:skyblue;
     letter-spacing: 1.5px;
-    margin-left:4px;
-    margin-right:4px;
+    margin:0px 4px 0px 4px;
 }
 #logo
 {
     width:160px;
     float:left;
     padding:0;
-    margin-left: 15px;
+    margin-left: 6px 0px 0px 15px;
     position:relative;
     z-index:1;
-    margin-top:6px;
 }
 .banner
 {
@@ -92,16 +88,15 @@ body
 }
 .banner h2
 {
-    margin-left: 25px;
     font-weight: lighter;
     font-size: 35px;
-    margin-top: 15.5px;
+    margin: 15.5px 0px 0px 25px;
 }
-.banner .line1
+.banner-content-line1
 {
     margin-bottom:-6px;
 }
-.banner .line2
+.banner-content-line2
 {
     margin-top:6px;
 }
@@ -126,9 +121,8 @@ body
     width:300px;
     display: inline-block;
     color:white;
-    padding-left: 25px;
     vertical-align: top;
-    padding-top: 20px;
+    padding: 20px 0px 0px 25px;
 }
 .middle-container
 {
@@ -143,20 +137,16 @@ body
     width:270px;
     display: inline-block;
     color:white;
-    padding-left: 30px;
     vertical-align: top;
-    padding-top: 20px;
+    padding: 20px 0px 0px 30px;
 }
 .inside-border
 {
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-bottom:-5px;
+    margin: 0px 4px -5px 4px;
     height: 454px;
     border-width: 0.2px;
     border-style: solid;
     border-image: linear-gradient(to top, rgb(255,255,255,0.2),rgb(255,255,255,0.01)) 1 10%;
-
 }
 
 .left-container img
